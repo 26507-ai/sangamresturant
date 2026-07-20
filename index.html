@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangam Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Sangam Restaurant</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Sangam Restaurant</h1>
+            <p>Experience the perfect blend of taste and tradition.</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Special Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h3>Momo (Dumplings)</h3>
+                <p>Steamed or fried dumplings filled with minced meat or veggies.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Biryani</h3>
+                <p>Aromatic basmati rice cooked with flavorful spices and chicken.</p>
+                <span class="price">$14.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Sekuwa</h3>
+                <p>Traditional Nepalese styled grilled meat marinated with spices.</p>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Sangam</h2>
+        <p>At Sangam Restaurant, "Sangam" means a beautiful confluence. We bring together fresh ingredients, authentic
+            recipes, and a warm atmosphere to give you an unforgettable dining experience.</p>
+    </section>
+
+    <!-- Contact Section / Booking -->
+    <section id="contact" class="contact-section">
+        <h2>Book a Table</h2>
+        <form id="booking-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="date" id="date" required>
+            <button type="submit" class="btn">Submit Reservation</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sangam Restaurant. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
